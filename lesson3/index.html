@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="text" required>
+    <input type="number">
+    <input type="password">
+    <input type="email">
+    <input type="date">
+    <input type="checkbox">
+    <label for="username">Имя пользователя</label>
+    <input type="checkbox" id="username" name="username">
+    <label for="male">Женский пол</label>
+    <input type="radio" id="female" value="female" name="gender">
+    <label for="male">Мужской пол</label>
+    <input type="radio" id="male" value="male" name="gender">
+    <label for="male">car</label>
+    <input type="radio" id="care" value="care" name="caregender">
+    <label for="male">car</label>
+    <input type="radio" id="care1" value="care1" name="caregender">
+
+    <textarea cols="3" rows="3">lorem</textarea>
+    <select>
+        <option value="Bishkek">Bishkek123</option>
+        <option value="narin">narin123</option>
+        <option value="osh">osh123</option>
+    </select>
+
+    <fieldset>
+        <legend>Выбрать пол</legend>
+        <label for="male">Женский пол</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="male">Мужской пол</label>
+        <input type="radio" id="male" value="male" name="gender">
+    </fieldset>
+    <button type="button">Отправить</button>
+    <button type="submit">Отправить</button>
+    <button type="reset">очистить</button>
+    <form action="/register" method="post">
+        <input type="text" name="username" required value="username">
+        <input type="text" name="username" readonly value="username">
+        <input type="text" name="username" disabled value="username">
+        <input type="text" name="username" minlength="5" maxlength="10" required>
+        <input type="number" min="18" max="100" required>
+
+        <button type="submit">отправить</button>
+    </form>
+    <input type="color">
+
+
+    <div class="menu-container">
+        <input type="checkbox" id="toggle" name="toggle" class="toggle">
+        <label for="toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="menu">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
